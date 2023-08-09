@@ -9,6 +9,9 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #222;
     font-size: 1.125rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 
@@ -18,7 +21,7 @@ body {
     max-width: 470px;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
-    margin: 70px auto 0;
+    margin: 100px auto 0;
     border-radius: 20px;
     padding: 2.2em 2em;
     text-align: center;
