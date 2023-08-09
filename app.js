@@ -19,7 +19,7 @@ const response = await fetch(apiUrl+cityName+`&appid=${apiKey}`)
     city.textContent=data.name
     temp.textContent= Math.round(data.main.temp)+'°c'
     humidity.textContent=data.main.humidity+'%'
-    wind.textContent=data.wind.speed+' km/h'
+    wind.textContent=data.wind.speed+' Km/h'
 
     const weatherCond = data.weather[0].main
     if(weatherCond=='Clear') {
