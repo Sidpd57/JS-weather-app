@@ -16,7 +16,6 @@ searchBtn.addEventListener('click',() => {
 async function checkWeather(cityName){
 const response = await fetch(apiUrl+cityName+`&appid=${apiKey}`)
     let data = await response.json()
-    console.log(data)
     city.textContent=data.name
     temp.textContent= Math.round(data.main.temp)+'°c'
     humidity.textContent=data.main.humidity+'%'
